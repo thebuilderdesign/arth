@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue,
+    Roboto, Segoe UI, sans-serif;
+  color: #0E1029;
+  overflow-y: scroll;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'FT Switch';
+  src: url('/fonts/FTSwitch-Regular.woff2') format('woff2'),
+  url('/fonts/FTSwitch-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FT Switch';
+  src: url('/fonts/FTSwitch-Medium.woff2') format('woff2'),
+  url('/fonts/FTSwitch-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Mono";
+  font-weight: 400;
+  src: url("/fonts/SFMono-Regular.otf");
+  font-style: normal;
+}

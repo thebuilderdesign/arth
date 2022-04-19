@@ -1,0 +1,29 @@
+{
+  "supportedNetworkIds": ["25"],
+  "rpcUrls": {
+    "25": "https://evm.cronos.org/"
+  },
+  "wsRpcUrls": {
+    "25": "wss://evm.cronos.org/"
+  },
+  "networkNames": {
+    "25": "cronos"
+  },
+  "networkDisplayNames": {
+    "25": "Cronos"
+  },
+  "defaultNetwork": "25",
+  "exTestchainApiUrl": "http://localhost:4000/chain",
+  "showFeeds": ["DAI"],
+  "showWalletTokens": ["DAI", "DSR", "POS_DAI"],
+  "trackingPages": {
+    "Overview": "Overview",
+    "CDP": "Dashboard",
+    "Save": "Dashboard",
+    "Landing": "Landing"
+  },
+  "txManager": {
+    "autoDismissFadeoutTime": 500,
+    "autoDismissTime": 10000
+  }
+}

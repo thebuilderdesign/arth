@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "MCD CDP Portal",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ],
+  "github": {
+    "enabled": false
+  },
+  "env": {
+    "BLANK_SECRET": "@blank-secret"
+  }
+}
